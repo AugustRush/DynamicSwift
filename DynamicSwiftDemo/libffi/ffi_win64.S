@@ -1,5 +1,4 @@
-
-#ifdef X86_WIN64
+#ifdef __x86_64__
 
 #define LIBFFI_ASM
 #include "fficonfig.h"
