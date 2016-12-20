@@ -1,0 +1,17 @@
+
+class Controller: UIViewController {
+
+
+    override func viewDidLoad() {
+        self.title = "test title"
+        self.view.backgroundColor = UIColor.redColor
+    }
+
+    func add(a: Int, b: Int) -> Int {
+
+    }
+
+    func dealloc() {
+        self.view.backgroundColor = UIColor.blackColor
+    }
+}
